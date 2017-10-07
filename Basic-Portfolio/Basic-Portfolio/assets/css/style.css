@@ -1,0 +1,107 @@
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	/*text-align:center;*/
+	width:960px;
+	margin: 0px auto;
+	color:#777777;
+}
+
+h1, h2, h3,h4{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1{
+	/*width:;*/
+	float: left;
+	height: inherit;
+	margin: 0px 100px;
+	width:400px;
+	line-height: 75px;
+	text-align:center;
+	color: 	#ffffff;
+	/*border-bottom-color: #cccccc;*/
+	background: #4aaaa5;
+}
+
+h2, h3{
+	color:#4aaaa5;
+}
+
+header{
+	height:75px;
+	border-bottom: 2px solid #cccccc;
+	background: #ffffff;
+}
+
+nav{
+	height: inherit;
+	line-height: 75px;
+	float:right;
+	/*text-decoration: none;*/
+	/*clear:both;*/
+}
+
+a{
+	text-decoration: none;
+	margin-left:20px;
+}
+
+main{
+	width:650;
+}
+
+article{
+	/*float:left;*/
+	height:500px;
+	padding-left:100px;
+	/*margin-right:400px;*/
+	margin-left: 50px;
+	width:200;
+	/*margin: 0px 100px;*/
+	background: #ffffff;
+}
+
+h2{
+	/*margin-left: 50px;*/
+	padding-bottom: 10px;
+	border-bottom: 2px solid #cccccc;
+}
+
+img{
+	float: left;
+	clear: both;
+}
+
+p{
+	/*margin-left:50px;*/
+	float:left;
+	clear: both;
+}
+
+aside{
+	float: left;
+	height:inherit;
+	clear: both;
+}
+
+div{
+		background: #4aaaa5;
+		height: 7px;
+}
+
+footer{
+	background: #666666;
+	line-height: 75px;
+}
+
+.gitHub{
+	background-image:  url("assets/images/gitHub.png");
+}
+
+.stackOverflow{
+	background-image:url("assets/images/stackOverflow.png");
+}
+
+.linkedIn{
+	background-image: url("assets/images/linkedIn.png");
+}
